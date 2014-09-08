@@ -6,4 +6,6 @@
  * Time: 9:48 PM
  */
 
+require_once("payment.php");
 
+(new Payment())->index();
